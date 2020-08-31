@@ -1,0 +1,555 @@
+p::selection
+{
+    background-color: #bcda5c;
+    color: #EEE
+}
+/* Start NavBar */
+
+.navbar-default
+{
+    border: none;
+    padding-bottom: 11px;
+    border-radius: 0;
+    margin-bottom: 0
+}
+.collapse .navbar-nav
+{
+    margin: 12px 0 0 130px;
+}
+.collapse button
+{
+    border-radius: 20px;
+    border: none; 
+    width: 95px;
+    margin-top: 17px;
+    background-color: #bcda5c
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover
+{
+    color: #99c50a;
+    background: none
+}
+.navbar-default .navbar-nav > li a:hover
+{
+    color: #99c50a;
+}
+/* ENd NavBar */
+
+/* Start Slider */
+
+.carousel .item img
+{
+    width: 100%
+}
+.carousel .item .carousel-caption
+{
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    top: 25%;
+}
+.carousel .item .carousel-caption h2
+{
+    font-size: 45px
+}
+.carousel .item .carousel-caption p
+{
+    font-size: 30px;
+    margin-top: 25px
+}
+.carousel .item .carousel-caption button
+{
+    background-color: #99c50a;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 30px;
+    font-weight: bold
+}
+.item .overlay
+{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+.carousel-control.left,
+.carousel-control.right
+{
+    background: none
+}
+.carousel-control
+{
+    bottom: 13%;
+    top: auto;
+    opacity: 1
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next
+{
+    right: 75%;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev
+{
+    left: 567%
+}
+/* End Slider */
+
+/* Start Our Work */
+
+.our-work 
+{
+    margin-top: 80px;
+}
+.our-work h2
+{
+    text-transform: uppercase;
+    font-weight: bold
+}
+.our-work h2:first-of-type
+{
+    margin-top: 50px
+}
+.our-work h2:last-of-type
+{
+    margin-bottom: 50px
+}
+.our-work > p
+{
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: #838383;
+    font-size: 19px
+}
+
+.my-tabs
+{
+    margin-top: 120px
+}
+.nav-tabs
+{
+    border-bottom: none
+}
+.nav-tabs>li>a span
+{
+    color: #EEE;
+    background-color: #5f5f5f;
+    min-width: 30px;
+    min-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: bold;
+    padding-top: 1.5%;
+    margin-right: 30px;
+    font-size: 16px;
+    position: relative;
+    top: -3px
+}
+.nav-tabs>li>a
+{
+    color: #5f5f5f;
+    font-size: 25px;
+    
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover
+{
+    border: none
+}
+.nav-tabs>li>a:hover
+{
+    border-color: transparent;
+    background: none
+}
+.nav-tabs>li>a:hover span
+{
+    background-color: #add136
+}
+.nav-tabs>li.active>a span,
+.nav-tabs>li.active>a span:focus,
+.nav-tabs>li.active>a span:hover
+{
+    background-color: #add136
+}
+
+.my-tabs .tab-content
+{
+    padding: 70px 40px 0 40px
+}
+.my-tabs .tab-content .tab-pane > div img
+{
+    margin-left: 120px
+}
+.my-tabs .tab-content .tab-pane > div h4
+{
+    color: #add136;
+    text-indent: 20px;
+    margin-bottom: 30px;
+}
+.my-tabs .tab-content .tab-pane > div p
+{
+    color: #AAA;
+    line-height: 1.7;
+    margin-right: 5px
+}
+
+/* End Our Work */
+
+/* Start Portfolio */
+.portfolio
+{
+    margin-top: 100px
+}
+.portfolio .properties
+{
+    float: left;
+    width: 50%;
+    background-color: #e2f8ff;
+    padding: 40px
+}
+.portfolio .properties > div,
+.portfolio .buyers > div
+{
+    float: left;
+    width: 50%
+}
+.portfolio .properties > div:first-child img
+{
+    max-width: 120px;
+    position: relative;
+    top: 40px
+    
+}
+.portfolio .properties > div h3
+{
+    color: #515151;
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.portfolio .properties > div p
+{
+    line-height: 1.7;
+    color: #515151;
+    margin-bottom: 25px
+}
+.portfolio .properties > div button
+{
+    border: none;
+    padding: 10px 15px;
+    background-color: #26a6d1;
+    border-radius: 5px;
+    color: #EEE
+}
+.portfolio .buyers
+{
+    float: left;
+    width: 50%;
+    background-color: #f5f9eb;
+    padding: 40px 40px 40px 0;
+}
+.portfolio .buyers > div:first-child img
+{
+    max-width: 120px;
+    position: relative;
+    top: 40px
+    
+}
+.portfolio .buyers > div h3
+{
+    color: #515151;
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.portfolio .buyers > div p
+{
+    line-height: 1.7;
+    color: #515151;
+    margin-bottom: 25px
+}
+.portfolio .buyers > div button
+{
+    border: none;
+    padding: 10px 15px;
+    background-color: #add136;
+    border-radius: 5px;
+    color: #EEE
+}
+/* End Portfolio */
+
+/* Start Featured */
+
+article > section h3
+{
+    color: #515151;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px
+}
+article > section p
+{
+    line-height: 1.7;
+    color: #515151;
+    font-size: 17px
+}
+article > section button
+{
+    border: 1px solid #838383;
+    color: #838383;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: none;
+    margin-top: 115px;
+    font-weight: bold
+}
+/* End Featured */
+
+/* Start Projects */
+.our-project
+{
+    margin-top: 60px;
+}
+.our-project .thumbnail
+{
+    padding: 0;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    overflow: hidden
+}
+.our-project .thumbnail img
+{
+    width: 100%
+}
+.our-project .thumbnail > .lead
+{
+    color: #EEE;
+    transform: rotate(-45deg);
+    top: -110px;
+    left: -35px;
+    background: none;
+    font-size: 20px;
+    font-weight: 100;
+        
+}
+.our-project .thumbnail > p
+{
+    position: absolute;
+    top: 225px;
+    right: 30px;
+    background-color: #26a6d1;
+    color: #EEE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold
+}
+.our-project .thumbnail:before
+{
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: #add136 transparent transparent #add136;
+    position: absolute;
+    top: 1px;
+    left: 16px;
+    border-top-left-radius: 12px
+}
+.our-project .thumbnail .caption
+{
+    padding-left: 35px;
+    padding-right: 35px
+}
+.our-project .thumbnail .caption h3
+{
+    font-weight: bold;
+    color: #484848;
+    font-size: 22px;
+    margin-bottom: 20px
+    
+}
+.our-project .thumbnail .caption p
+{
+    color: #7b7b7b;
+    line-height: 1.4;
+    font-size: 16px
+}
+.our-project .thumbnail .caption .progress
+{
+    background-color: #e3e3e3;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.our-project .thumbnail .caption .progress span
+{
+    display: block;
+    background-color: #add136;
+    height: 100%;
+}
+.our-project .thumbnail .caption .funded
+{
+    float: left;
+    color: #a3a3a3
+}
+.our-project .thumbnail .caption .date
+{
+    float: right;
+    color: #a3a3a3
+}
+.our-project .thumbnail .caption .hr
+{
+    background-color: #d6d6d6;
+    height: 1.5px;
+    margin-top: 15px;
+    margin-bottom: 20px
+}
+.our-project .thumbnail .caption button
+{
+    color: #868686;
+    float: right;
+    background: none;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: color .5s ease
+}
+.our-project .thumbnail .caption button:hover
+{
+    color: #b6d64e
+}
+.our-project .thumbnail .caption button span
+{
+    color: #b6d64e
+}
+/* End Projects */
+
+/* Start Community */
+.community
+{
+    background-image: url('../images/bg.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.community section > h2
+{
+    color: #9ec02d;
+    margin-bottom: 30px;
+    margin-top: 100px
+}
+.community section > p
+{
+    color: #949494;
+    line-height: 1.5;
+    font-size: 20px
+}
+.community section .says
+{
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 10px
+}
+.community section .says:after
+{
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 20px 20px 20px 0px;
+    border-color: #FFF transparent transparent;
+    border-style: solid;
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+.community section:last-child
+{
+    margin-top: 90px
+}
+.community section .says h3
+{
+    color: #9ec02d;
+    margin-top: 20px
+}
+.community section .says p
+{
+    color: #848484;
+    line-height: 1.7
+}
+.community section .person img
+{
+    margin: 40px 0 40px 100px;
+}
+.community section .person span
+{
+    color: #494949;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 30px;
+}
+/* End Community */
+
+/*  Start Section Our Clients */
+
+.fot-img
+{
+    margin: 40px auto;
+}
+
+/*  End Section Our Clients */
+
+/* Start Footer */
+
+footer
+{
+    text-align: center;
+    color: #8a8484;
+    padding: 20px 0;
+    border-top: 1px solid #cac5c5;
+}
+
+/* End Footer */
+
+/* Start Scroll To Top */
+
+.scroll-to-top
+{
+    background-color: #5f5f5f;
+    color: #EEE;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+    text-align: center;
+    line-height: 40px;
+    transition: all .5s ease
+}
+
+.scroll-to-top:hover
+{
+    background-color: #add136;
+    color: #EEE
+}
+
+/* End Scroll To Top */
+
+
+
+
+
+
+
+
